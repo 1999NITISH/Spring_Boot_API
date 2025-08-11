@@ -11,8 +11,8 @@ public class MyApi {
     public String sayHello(){
         return "Hello Nitish";
     }
-//    @GetMapping("/Bye")
-//    public String Bye(){
-//        return "Bye Everyone";
-//    }
+    @GetMapping("/Bye")
+    public String Bye(){
+        return "Bye Everyone";
+    }
 }
